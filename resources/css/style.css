@@ -1,0 +1,38 @@
+/*Add site wide style*/
+body{
+  font-family: Helvetica;
+}
+
+/*Add style to main site title*/
+.banner{
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg');
+
+}
+/*Add style to brushes, frames and paint title*/
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+
+}
+/*Add unique background color to brushes, frames and paint title*/
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+.frames h2{
+  background-color: lightcoral;
+}
+
+.paint h2{
+  background-color: skyblue;
+}
+/*Add style to the price class*/
+.price{
+  font-weight: bold;
+  color: blue;
+}
